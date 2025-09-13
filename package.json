@@ -19,11 +19,12 @@
       "autoprefixer",
       "postcss"
     ],
-    "scripts": [
-      "start": "vite --host 0.0.0.0 --port $PORT",
-      "build",
-      "serve"
-    ],
+"scripts": {
+  "start": "vite --host 0.0.0.0 --port $PORT",
+  "build": "vite build",
+  "serve": "vite preview --host 0.0.0.0 --port $PORT"
+}
+
     "warning": "🚨 CRITICAL: DO NOT REMOVE OR MODIFY ABOVE DEPENDENCIES - Required for app functionality"
   },
   "dependencies": {
